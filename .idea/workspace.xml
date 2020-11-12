@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da804713-2c08-4db7-aaed-c7b35229dbf3" name="Default Changelist" comment="">
+    <list default="true" id="da804713-2c08-4db7-aaed-c7b35229dbf3" name="Default Changelist" comment="test1">
       <change afterPath="$PROJECT_DIR$/ngx-cypress-test/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605166730211</updated>
       <workItem from="1605166731284" duration="109000" />
-      <workItem from="1605166851164" duration="6101000" />
+      <workItem from="1605166851164" duration="6995000" />
     </task>
     <servers />
   </component>
@@ -102,41 +102,42 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="test1" />
+    <option name="LAST_COMMIT_MESSAGE" value="test1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2615" y="409" width="520" height="276" key="Github.CreatePullRequestDialog" timestamp="1605173572385">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2615" y="409" width="520" height="276" key="Github.CreatePullRequestDialog/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605173572385" />
-    <state width="1076" height="281" key="GridCell.Tab.0.bottom" timestamp="1605169885378">
+    <state width="1076" height="281" key="GridCell.Tab.0.bottom" timestamp="1605174467695">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1076" height="281" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605169885378" />
-    <state width="1076" height="281" key="GridCell.Tab.0.center" timestamp="1605169885378">
+    <state width="1076" height="281" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605174467695" />
+    <state width="1076" height="281" key="GridCell.Tab.0.center" timestamp="1605174467695">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1076" height="281" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605169885378" />
-    <state width="1076" height="281" key="GridCell.Tab.0.left" timestamp="1605169885378">
+    <state width="1076" height="281" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605174467695" />
+    <state width="1076" height="281" key="GridCell.Tab.0.left" timestamp="1605174467695">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1076" height="281" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605169885378" />
-    <state width="1076" height="281" key="GridCell.Tab.0.right" timestamp="1605169885378">
+    <state width="1076" height="281" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605174467695" />
+    <state width="1076" height="281" key="GridCell.Tab.0.right" timestamp="1605174467695">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1076" height="281" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605169885378" />
-    <state x="1958" y="180" width="1022" height="737" key="SettingsEditor" timestamp="1605166838460">
+    <state width="1076" height="281" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605174467695" />
+    <state x="1958" y="180" width="1022" height="737" key="SettingsEditor" timestamp="1605174466384">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="1958" y="180" width="1022" height="737" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605166838460" />
+    <state x="1958" y="180" width="1022" height="737" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605174466384" />
     <state x="2020" y="100" width="1720" height="880" key="ShowDiffWithBranchDialog" timestamp="1605172146319">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2020" y="100" width="1720" height="880" key="ShowDiffWithBranchDialog/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605172146319" />
-    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605172403047">
+    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605174031785">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605172403047" />
+    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605174031785" />
     <state x="2431" y="315" width="878" height="464" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1605173569382">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
