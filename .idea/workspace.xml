@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da804713-2c08-4db7-aaed-c7b35229dbf3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ngx-cypress-test/package-lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ngx-cypress-test" />
+  </component>
+  <component name="ProjectId" id="1kBGmX0IHFDsuwZCqpr7ehRdPB1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/ngx-cypress-test/node_modules/stylelint" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="cypress/integration/firstTest.spec.js" type="CypressConfigurationType" factoryName="Cypress" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="textRange" />
+      <option name="allNames" />
+      <option name="specsDir" />
+      <option name="specFile" value="$PROJECT_DIR$/cypress/integration/firstTest.spec.js" />
+      <option name="testName" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="additionalParams" value="" />
+      <option name="passParentEnvs" value="true" />
+      <option name="nodeJsRef" value="project" />
+      <option name="npmRef" value="Project" />
+      <option name="kind" value="SPEC" />
+      <option name="interactive" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cypress.cypress/integration/firstTest.spec.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da804713-2c08-4db7-aaed-c7b35229dbf3" name="Default Changelist" comment="" />
+      <created>1605166730211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605166730211</updated>
+      <workItem from="1605166731284" duration="109000" />
+      <workItem from="1605166851164" duration="6101000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2615" y="409" width="520" height="276" key="Github.CreatePullRequestDialog" timestamp="1605173572385">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2615" y="409" width="520" height="276" key="Github.CreatePullRequestDialog/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605173572385" />
+    <state width="1076" height="281" key="GridCell.Tab.0.bottom" timestamp="1605169885378">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1076" height="281" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605169885378" />
+    <state width="1076" height="281" key="GridCell.Tab.0.center" timestamp="1605169885378">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1076" height="281" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605169885378" />
+    <state width="1076" height="281" key="GridCell.Tab.0.left" timestamp="1605169885378">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1076" height="281" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605169885378" />
+    <state width="1076" height="281" key="GridCell.Tab.0.right" timestamp="1605169885378">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1076" height="281" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605169885378" />
+    <state x="1958" y="180" width="1022" height="737" key="SettingsEditor" timestamp="1605166838460">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1958" y="180" width="1022" height="737" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605166838460" />
+    <state x="2020" y="100" width="1720" height="880" key="ShowDiffWithBranchDialog" timestamp="1605172146319">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2020" y="100" width="1720" height="880" key="ShowDiffWithBranchDialog/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605172146319" />
+    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605172403047">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605172403047" />
+    <state x="2431" y="315" width="878" height="464" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1605173569382">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2431" y="315" width="878" height="464" key="com.intellij.dvcs.ui.CompareBranchesDialog/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605173569382" />
+    <state x="2661" y="455" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605172200842">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2661" y="455" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605172200842" />
+    <state x="2617" y="440" width="516" height="206" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605172085881">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2617" y="440" width="516" height="206" key="git4idea.remote.GitConfigureRemotesDialog/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605172085881" />
+  </component>
+</project>
