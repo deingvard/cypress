@@ -11,7 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da804713-2c08-4db7-aaed-c7b35229dbf3" name="Default Changelist" comment="test1">
-      <change afterPath="$PROJECT_DIR$/ngx-cypress-test/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ngx-cypress-test" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kBGmX0IHFDsuwZCqpr7ehRdPB1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -83,7 +84,16 @@
       <updated>1605166730211</updated>
       <workItem from="1605166731284" duration="109000" />
       <workItem from="1605166851164" duration="6995000" />
+      <workItem from="1605174475503" duration="459000" />
     </task>
+    <task id="LOCAL-00001" summary="test1">
+      <created>1605174515422</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605174515422</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,10 +144,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2020" y="100" width="1720" height="880" key="ShowDiffWithBranchDialog/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605172146319" />
-    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605174031785">
+    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605174527744">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605174031785" />
+    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605174527744" />
     <state x="2431" y="315" width="878" height="464" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1605173569382">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
