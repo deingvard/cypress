@@ -4,6 +4,10 @@ describe('Our first suite', () => {
 
     it('my first test', () => {
 
+        cy.visit('/')
+        cy.contains('Forms').click()
+        cy.contains('Form Layouts').click()
+
         //by Tag Name
         cy.get('input')
 
@@ -36,4 +40,25 @@ describe('Our first suite', () => {
 
     });
 
+    it.only('second test', () => {
+        cy.visit('/')
+        cy.contains('Forms').click()
+        cy.contains('Form Layouts').click()
+
+        cy.get('[data-cy="signInButton"]')
+        cy.contains('Sign in')
+        cy.contains('[status="primary"]', 'Sign in')
+
+        cy.get('#inputEmail3')
+            .parents('form')
+            .find('button')
+            .should('contain', 'Sign in')
+            .parents('form')
+            .find('nb-checkbox')
+            .click()
+
+        cy.contains('nb-card', 'Horizontal form').find('[type="email"]')
+
+        cy.contains('nb-card', 'Block form').find('[placeholder="Website"]')
+    })
 })
