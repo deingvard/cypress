@@ -1,6 +1,6 @@
-**Run on localhost**
-cd ngx-cypress-test/
-npm start
+**Run application on localhost**
+* `cd ngx-cypress-test/`
+* `npm start`
 
-Run test (root directory):
-npx cypress open
+Run test (from ~~~~root directory):
+* `npx cypress open`
