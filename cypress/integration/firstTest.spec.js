@@ -3,7 +3,6 @@
 describe('Our first suite', () => {
 
     it('my first test', () => {
-
         cy.visit('/')
         cy.contains('Forms').click()
         cy.contains('Form Layouts').click()
@@ -65,7 +64,6 @@ describe('Our first suite', () => {
     })
 
     it('then and wrap methods', () => {
-
         cy.visit('/')
         cy.contains('Forms').click()
         cy.contains('Form Layouts').click()
@@ -92,18 +90,23 @@ describe('Our first suite', () => {
         })
 
     })
-
+    // Assertions and invokes
     it('invoke command', () => {
         cy.visit('/')
         cy.contains('Forms').click()
         cy.contains('Form Layouts').click()
 
         // 1
-        cy.get('[for="exampleInputEmail1"]').should('contain', 'Email address')
+        cy.get('[for="exampleInputEmail1"]')
+            .should('contain', 'Email address')
+            .should('have.class', 'label')
+            .and('have.text', 'Email address')
 
         // 2
         cy.get('[for="exampleInputEmail1"]').then(label => {
             expect(label.text()).to.equal('Email address')
+            expect(label).to.have.class('label')
+            expect(label).to.have.text('Email address')
         })
 
         // 3
@@ -123,15 +126,36 @@ describe('Our first suite', () => {
             })
     });
 
-    it('assert property', () => {
+    // Select date in the datepicker (include current format system) and Assertions
+    it.only('assert property', () => {
+
+        function selectDayFromCurrent(day) {
+
+            let date = new Date() // get current format date
+            date.setDate(date.getDate() + day) // set date in datepicker
+            let futureDay = date.getDate()
+            let futureMonth = date.toLocaleString('default', {month: 'short'})
+            let dateAssert = futureMonth + ' ' + futureDay + ', ' + date.getFullYear()
+
+            cy.get('nb-calendar-navigation').invoke('attr', 'ng-reflect-date').then(dateAttribute => {
+                if (!dateAttribute.includes(futureMonth)) {
+                    cy.get('[data-name="chevron-right"]').click()
+                    selectDayFromCurrent(day)
+                } else {
+                    cy.get('nb-calendar-day-picker [class="day-cell ng-star-inserted"]').contains(futureDay).click()
+                }
+            })
+            return dateAssert
+        }
+
         cy.visit('/')
         cy.contains('Forms').click()
         cy.contains('Datepicker').click()
-
         cy.contains('nb-card', 'Common Datepicker').find('input').then(input => {
             cy.wrap(input).click()
-            cy.get('nb-calendar-day-picker').contains('14').click()
-            cy.wrap(input).invoke('prop', 'value').should('contain', 'Nov 14, 2020')
+            let dateAssert = selectDayFromCurrent(3)
+            cy.wrap(input).invoke('prop', 'value').should('contain', dateAssert)
+            cy.wrap(input).should('have.value', dateAssert)
         })
     })
 
@@ -209,7 +233,7 @@ describe('Our first suite', () => {
         })
     })
 
-    it.only('Web tables', () => {
+    it('Web tables', () => {
         cy.visit('/')
         cy.contains('Tables & Data').click()
         cy.contains('Smart Table').click()
@@ -250,7 +274,39 @@ describe('Our first suite', () => {
                 }
             })
         })
-
-
     })
+
+    it('tooltip', () => {
+        cy.visit('/')
+        cy.contains('Modal & Overlays').click()
+        cy.contains('Tooltip').click()
+
+        cy.contains('nb-card', 'Colored Tooltips')
+            .contains('Default').click()
+        cy.get('nb-tooltip').should('contain', 'This is a tooltip')
+    })
+
+    it('dialog box', () => {
+        cy.visit('/')
+        cy.contains('Tables & Data').click()
+        cy.contains('Smart Table').click()
+
+        // 1
+        cy.get('tbody tr').first().find('.nb-trash').click()
+        cy.on('window:confirm', (confirm) => {
+            expect(confirm).to.equal('Are you sure you want to delete?')
+        })
+
+        // 2
+        const stub = cy.stub()
+        cy.on('window:confirm', stub)
+        cy.get('tbody tr').first().find('.nb-trash').click().then(() => {
+            expect(stub.getCall(0)).to.be.calledWith('Are you sure you want to delete?')
+        })
+
+        // 3
+        // popup click cancel button
+        cy.get('tbody tr').first().find('.nb-trash').click()
+        cy.on('window:confirm', () => false)
+    });
 })

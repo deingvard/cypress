@@ -10,9 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da804713-2c08-4db7-aaed-c7b35229dbf3" name="Default Changelist" comment="added examples cy">
+    <list default="true" id="da804713-2c08-4db7-aaed-c7b35229dbf3" name="Default Changelist" comment="added examples cypress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/integration/firstTest.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/firstTest.spec.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,7 @@
       <workItem from="1605174475503" duration="11933000" />
       <workItem from="1605187983517" duration="1895000" />
       <workItem from="1605189896392" duration="4964000" />
-      <workItem from="1605249392865" duration="7520000" />
+      <workItem from="1605249392865" duration="15427000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1605174515422</created>
@@ -83,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605190929766</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added examples cypress">
+      <created>1605257183593</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605257183593</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,13 +111,14 @@
     <MESSAGE value="test1" />
     <MESSAGE value="added examples locators" />
     <MESSAGE value="added examples cy" />
-    <option name="LAST_COMMIT_MESSAGE" value="added examples cy" />
+    <MESSAGE value="added examples cypress" />
+    <option name="LAST_COMMIT_MESSAGE" value="added examples cypress" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2070" y="184" width="800" height="719" key="#Plugins" timestamp="1605248725175">
+    <state x="2070" y="184" width="800" height="719" key="#Plugins" timestamp="1605263270861">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2070" y="184" width="800" height="719" key="#Plugins/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605248725175" />
+    <state x="2070" y="184" width="800" height="719" key="#Plugins/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605263270861" />
     <state x="2338" y="198" width="1084" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605178436330">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -152,10 +159,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2526" y="148" key="StringManipulation.SortTypeDialog/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605189119825" />
-    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605190936089">
+    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605257191507">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605190936089" />
+    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605257191507" />
     <state x="2431" y="315" width="878" height="464" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1605173569382">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
