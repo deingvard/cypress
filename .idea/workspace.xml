@@ -11,13 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da804713-2c08-4db7-aaed-c7b35229dbf3" name="Default Changelist" comment="added examples cypress">
+      <change afterPath="$PROJECT_DIR$/cypress/integration/testWithPageObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/support/page_objects/datepickerPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/support/page_objects/formLayoutsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/support/page_objects/navigationPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/firstTest.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/firstTest.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngx-cypress-test" beforeDir="false" afterPath="$PROJECT_DIR$/ngx-cypress-test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngx-cypress-test/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ngx-cypress-test/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,6 +49,7 @@
     <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/ngx-cypress-test/node_modules/stylelint" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/ngx-cypress-test/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -52,7 +65,7 @@
       <workItem from="1605174475503" duration="11933000" />
       <workItem from="1605187983517" duration="1895000" />
       <workItem from="1605189896392" duration="4964000" />
-      <workItem from="1605249392865" duration="15427000" />
+      <workItem from="1605249392865" duration="25970000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1605174515422</created>
@@ -89,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605257183593</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added examples cypress">
+      <created>1605265333127</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605265333127</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,22 +151,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2615" y="409" width="520" height="276" key="Github.CreatePullRequestDialog/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605173572385" />
-    <state width="884" height="283" key="GridCell.Tab.0.bottom" timestamp="1605187972415">
+    <state width="1088" height="284" key="GridCell.Tab.0.bottom" timestamp="1605272146954">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="884" height="283" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605187972415" />
-    <state width="884" height="283" key="GridCell.Tab.0.center" timestamp="1605187972415">
+    <state width="1088" height="284" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605272146954" />
+    <state width="1088" height="284" key="GridCell.Tab.0.center" timestamp="1605272146954">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="884" height="283" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605187972415" />
-    <state width="884" height="283" key="GridCell.Tab.0.left" timestamp="1605187972415">
+    <state width="1088" height="284" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605272146954" />
+    <state width="1088" height="284" key="GridCell.Tab.0.left" timestamp="1605272146954">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="884" height="283" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605187972415" />
-    <state width="884" height="283" key="GridCell.Tab.0.right" timestamp="1605187972415">
+    <state width="1088" height="284" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605272146954" />
+    <state width="1088" height="284" key="GridCell.Tab.0.right" timestamp="1605272146954">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="884" height="283" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605187972415" />
+    <state width="1088" height="284" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605272146954" />
     <state x="1958" y="180" width="1022" height="737" key="SettingsEditor" timestamp="1605249373719">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -159,10 +179,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2526" y="148" key="StringManipulation.SortTypeDialog/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605189119825" />
-    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605257191507">
+    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605265343991">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605257191507" />
+    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605265343991" />
     <state x="2431" y="315" width="878" height="464" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1605173569382">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -171,10 +191,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2661" y="455" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605172200842" />
-    <state x="2041" y="0" width="1619" height="1050" key="find.popup" timestamp="1605176657541">
+    <state x="2041" y="0" width="1619" height="1050" key="find.popup" timestamp="1605268536442">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2041" y="0" width="1619" height="1050" key="find.popup/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605176657541" />
+    <state x="2041" y="0" width="1619" height="1050" key="find.popup/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605268536442" />
     <state x="2617" y="440" width="516" height="206" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605178633880">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
