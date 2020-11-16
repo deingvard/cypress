@@ -18,6 +18,17 @@ export class FormLayoutsPage {
         })
     }
 
+    submitFormLayout(){
+        cy.contains('nb-card', 'Using the Grid').find('form').then(form => {
+            cy.wrap(form).get('[data-cy="signInButton"]')
+            cy.wrap(form).contains('Sign in')
+            cy.wrap(form).contains('[status="primary"]', 'Sign in')
+            cy.wrap(form).get('#inputEmail3')
+            cy.wrap(form).find('button')
+            cy.wrap(form).should('contain', 'Sign in')
+        })
+    }
+
 }
 
 export const onFormLayoutsPage = new FormLayoutsPage()

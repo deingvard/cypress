@@ -1,6 +1,7 @@
 import {navigateTo} from "../support/page_objects/navigationPage";
 import {onFormLayoutsPage} from "../support/page_objects/formLayoutsPage";
 import {onDatePickerPage} from "../support/page_objects/datepickerPage";
+import {onSmartTablePage} from "../support/page_objects/smartTablePage";
 
 describe('Test with Page Objects', () => {
 
@@ -21,9 +22,17 @@ describe('Test with Page Objects', () => {
         onFormLayoutsPage.submitInlineFormWithNameAndEmail('Sasha', 'test@test.com')
         onFormLayoutsPage.submitBasicFormWithEmailAndPassword('test@test.com', "password")
 
+        navigateTo.formLayoutsPage()
+        onFormLayoutsPage.submitFormLayout()
+
         navigateTo.datepickerPage()
         onDatePickerPage.selectCommonDatepickerDateFromToday(2)
         onDatePickerPage.selectDatepickerWithRangeFromToday(7, 15)
+
+        navigateTo.smartTablePage()
+        onSmartTablePage.addNewRecordWithFirstAndLastName('Sasha', 'Bond')
+        onSmartTablePage.updateAgeByFirstName('Sasha', '40')
+        onSmartTablePage.deleteRowByIndex(1)
     });
 
 });
