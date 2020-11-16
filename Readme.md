@@ -2,5 +2,5 @@
 * `cd ngx-cypress-test/`
 * `npm start`
 
-Run test (from ~~~~root directory):
+Run test (from root directory):
 * `npx cypress open`
